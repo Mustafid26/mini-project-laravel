@@ -1,0 +1,23 @@
+/*nav*/
+.dropdown{
+    margin-right: 50px;
+}
+.dropdown-menu{
+    transform: translate(-104px,3px);
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*responsif*/
+@media screen and (max-width: 600px) {
+    .dropdown-menu {
+        transform: translate(0, 3px);
+    }
+}
+
+.card-body .btn{
+    margin-top: auto;
+}
